@@ -8,6 +8,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>museum online javascrip</h1>
+
+
+    <h1 id="kop">museum online javascrip</h1>
+    <p id="mkblouw">maak achtergrond blouw </p>
+    <h2 id="mkgroen">maak achtergrond geoen </h2>
+
+
+<script>
+
+
+   const kop = document.getElementById("kop");
+   const mkblouw = document.getElementById('mkblouw');
+   const mkgroen = document.getElementById('mkgroen');
+  
+
+   kop.style.backgroundColor = "red"
+
+
+
+   kop.addEventListener('click',voeruitkop);
+   mkblouw.addEventListener('click',voeruitblouw);
+   mkgroen.addEventListener('click',voeruitgroen);
+
+
+
+   function voeruitkop(){
+kop.style.backgroundColor = "yellow";
+kop.style.color = "white";
+
+
+   }
+function voeruitblouw (){
+       document.body.style.backgroundColor = "blue";
+       document.body.style.color = "white";
+       kop.style.backgroundColor = "black";
+       kok.style.color = "white"; 
+}
+function voeruitgroen(){
+    document.body.style.backgroundColor ="green";
+}
+
+
+
+
+
+</script>
+
+
+
 </body>
 </html>
