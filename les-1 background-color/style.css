@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(65, 1, 126);
+}
+h1{
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-right: 20px;
+    padding-left: 70px;
+    align-items: center;
+    font-size: 100px;
+    width: 85%;
+
+}
+h2{
+    background-color: black;
+    width: 20%;
+    height: 20%;
+
+
+
+}
